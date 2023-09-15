@@ -1,0 +1,11 @@
+.DS_Store
+.idea
+.env
+composer.lock
+composer.phar
+coverage
+docs/.vuepress/dist/
+node_modules
+package-lock.json
+vendor
+sample.php

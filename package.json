@@ -1,0 +1,32 @@
+{
+  "name": "coinmarketcap-php-api",
+  "version": "1.0.0",
+  "description": "A PHP wrapper for CoinMarketCap Professional APIs",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "docs:deploy": "vuepress build docs && sh docs/deploy/deploy.sh",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "php",
+    "api",
+    "coinmarketcap",
+    "exchange",
+    "crypto",
+    "client"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdrianTimofti/coinmarketcap-php-api.git"
+  },
+  "author": "Addrian Timofti (https://github.com/AdrianTimofti)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AdrianTimofti/coinmarketcap-php-api/issues"
+  },
+  "homepage": "https://github.com/AdrianTimofti/coinmarketcap-php-api#readme",
+  "devDependencies": {
+    "vuepress": "^0.14.4"
+  }
+}
